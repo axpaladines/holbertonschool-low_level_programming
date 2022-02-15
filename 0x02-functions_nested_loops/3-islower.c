@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
-* print_alphabet - prints the alphabet
-* Return: 1 if character is lowercase
-*/
-
+ * _islower - checks if a character is lowercase.
+ * @c: integer
+ * Return: 1 if character is lowercase, 0 otherwise
+ *
+ */
 int _islower(int c)
 {
 	if (c > 96 && c < 123)
