@@ -2,16 +2,16 @@
 
 /**
 * prints_alphabet - prints the alphabet
-* Return: Always 0
+* in lowercase
 */
 
 void print_alphabet(void)
 {
-	char i;
+	int i;
 
 	for (i = 97; i <= 122; i++)
 	{
 	_putchar(i);
 	}
-	_putchar(10);
+	_putchar();
 }
