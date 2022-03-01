@@ -3,7 +3,7 @@
 
 /**
 * _strpbrk - search a string for any of a set of bytes
-* @s: the first occurence in the string 
+* @s: the first occurence in the string
 * @accept: the byte in the string
 * Return: char
 */
