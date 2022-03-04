@@ -5,13 +5,11 @@
  * main - program that adds positive numbers.
  * @argc: number of inputs on the command line
  * @argv: array with the elements of the command line
- *
  * Return: 0.
  */
 
 int main(int argc, char *argv[])
 {
-
 	int i = 1, j = 1, sum = 0;
 
 	if (argc == 0)
@@ -30,6 +28,7 @@ int main(int argc, char *argv[])
 		}
 		j = 0;
 		sum += atoi(argv[i]);
+		i++;
 	}
 	printf("%d\n", sum);
 	return (0);
